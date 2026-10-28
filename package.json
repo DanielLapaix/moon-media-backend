@@ -1,13 +1,13 @@
 {
   "name": "moon-media-backend",
   "version": "1.0.0",
-  "description": "Backend de IA para Moon Media",
+  "description": "Backend API para el chat de IA de Moon Media",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "@google/genai": "^0.1.1",
+    "@google/genai": "latest",
     "cors": "^2.8.5",
     "express": "^4.19.2"
   }
